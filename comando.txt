@@ -1,0 +1,22 @@
+docker-compose up -d
+
+Ele ira baixar o n8n,waha(api de whatsapp) e redis  
+
+
+SET FIELDS"
+session
+chatid
+pushName
+payload_id
+event
+message
+fromMe
+"
+
+Redis
+password:default
+host: host.docker.internal
+
+
+WAHA
+host url: http://host.docker.internal:3000
